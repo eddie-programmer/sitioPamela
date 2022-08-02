@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina HTML</title><!--Para motor de busqueda de internet-->
+    <style>
+        table, th, td {
+            border:1px solid black; 
+        }
+    </style>
+</head>
+<body>
+<table style="width: 500px;">
+    <thead><!--Agrupar elementos en las cabeceras de las tablas-->
+        <tr><!--Table row, fila de la tabla-->
+            <th>Producto</th> <!--Table header, cabecera de la columna-->
+            <th>Precio</th>
+            <th>Marca</th>
+        </tr>
+    </thead>
+    <tbody><!--Agrupa las filas que pertenescan al cuerpo de la tabla-->
+        <tr>
+            <td>Hola Beat</td><!--Celdas, cuerpo de la tabla-->
+            <td>Gratos bebe</td>
+            <td>Beat</td>
+        </tr>
+        <tr>
+            <td>Ajua</td>
+            <td>Medias</td>
+            <td>Beates</td>
+        </tr>
+        <tr>
+            <td>Costo beat</td>
+            <td>$40,00</td>
+            <td>Beat Zona</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: $50,00</td>
+        <td></td>
+    </tfoot>
+</table>
+
+    <ul><!--Lista no ordenada, con puntito en negro ul(u list)-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ol><!--Lista no ordenada, con numeracion incremental ol(order list)-->
+        <li value="50">Elemento </li>
+        <li>Elemento </li>
+        <li>Elemento </li>
+        <li>Elemento </li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">Sub Elemento 1</li>
+                <li style="list-style-type:lower-roman;">Sub Elemento 1</li>
+                <li style="list-style-type:lower-roman;">Sub Elemento 1</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input value="eddie" type="text" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <br>
+        <label for="nombre">Apellido:</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Apellido prro"/> 
+        <br>
+        <label for="comentario">Comentario:</label>
+        <textarea cols="10" rows="10" type="text" id="comentario" name="comentario" placeholder="comentario">Valor por defecto</textarea>
+        <br>
+        <button type="button">Enviar button</button>
+        <button type="reset">Enviar reset</button>
+        <button type="submit">Enviar submit</button>
+        <!--type="submit" envia "reset" resetea, valores iniciales "button" especificar comprotamiento con JS-->
+        <!--type="" tipo de valor que esperara, password, checkbox, file, email-->
+        <!--name="" valor que enviara al servidor-->
+        <!--placeholder="" Indica con letra tenue indicaciones al usuario-->
+    </form>
+
+    <h1>Mi primer heading</h1> <!--Titulo al contenido, solo indicar titulos dentro de nuestra WEB, para motores de busqueda-->
+    <h2>Me segundo Heading</h2> <!--Subtitulos-->
+    <h3>Mi tercer Heading</h3> <!--Solo utilizar para titulos, subtitulos o sub sub titulos, para motores de busqueda-->
+    <h4>Mi cuarto Heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Ultimo heading</h6> 
+    <p>Texto de parrafo</p>
+    <p>Texto de parrafo esta muy triste</p>
+    <hr>
+    <h2>Chancho felipe</h2>
+    <p>
+        Mas texto bebe bla bla
+        bla bla <span style="color: rgb(124, 119, 201);">ifvhdiosgiojtrngiotrng</span>
+        y es para mostrar <br><br>
+        alv alv alv alv
+    </p>
+    <a target="_blank" href="https://www.google.com">Ir a google</a> <br>
+    <img src="img/DBS.jpg" width="400"/> <!--height="400"-->
+</body>
+</html>

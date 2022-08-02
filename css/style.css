@@ -1,0 +1,161 @@
+/*
+# para los id
+. para las clases
+*/
+
+/* .color{
+    color: #ff0000;
+} */
+
+/* .color{
+    color: rgb(255,0,0);
+} */
+.left{
+    float: left;
+    width: 200px;
+    height:200px;
+    background-color: inherit;
+}
+
+.container{
+    height: 200px;
+}
+
+.rigth{
+    float: right;
+}
+
+span{
+    display: block; /*salto de linea*/
+    /* display: none;
+    visibility: hidden; */
+    max-width: 300px;
+    background-color: bisque;
+}
+
+.inline{
+    display: inline;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+/*****************************ESTILOS TABLA****************************************/
+table{
+    width: 100%; /*Utiliza todo el ancho del documento*/
+    border-collapse: collapse;}
+
+th, td{
+    border: solid 1px #eee; /*Poner borde a table head y table date*/
+    padding: 5px;}
+
+th{
+    background-color: ;
+    color: #eee; /*color fuente*/
+    text-align: left; /*Texto izquierda*/}
+
+tr:hover{
+    background-color: #aaa;
+    cursor: pointer; /*coloca manita cuando pasas el selector en la filas*/}
+
+tr:nth-child(odd){/*odd=par, even=impar*/
+    background-color: ##c3a098;}
+
+/**************************FIN ESTILOS TABLA****************************************/
+
+ul{
+    background-color: rgb(109, 109, 165);
+    list-style-position: georgian;/* Quitar ountod */
+    /* padding-left: 0%; */
+}
+
+#linkbb{ /*cuando aun no se visita*/
+    color: chartreuse;
+}
+
+#linkbb:visited{ /*cuando ya se visito*/
+    color: brown;
+}
+
+#linkbb:hover{ /*cuando paso el puntero por el link*/
+    color: blueviolet;
+}
+
+#linkbb:active{ /*cuando damos clic al link*/
+    color: black;
+}
+
+.text{
+    text-align: center; /*left, right, center, right*/
+    text-decoration: overline;
+    text-shadow: 2px 5px 4px rgb(91, 91, 134) ; /*derecha, sombra hacua abajo, difuminado, color*/
+    font-family: 'Macondo', cursive,  sans-serif;
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px 30px 30px 15px; /*Elementos de arriba a izquierda como el reloj*/
+    border: solid 5px black;
+    padding: 30px;
+    /* height: 100px;
+    width: 50px; */
+    overflow: scroll;
+    outline: 20px;
+}
+
+#fondo{
+    background-color: rgba(197, 61, 61, 1); /*fondo, rgba: opacidad, solo cuando son colores*/
+    opacity: 0.9;
+    background-image: url('../html/img/HB.jpg');
+    height: 300px; /*Alto de la imagen*/
+    background-repeat: no-repeat; /*para que no repita la imagen repeat-y/repeat-x plano cartesiano para repetir*/
+    background-size: cover; /*Redimension de la imagen de fondo*/
+    /*
+    auto: determina el tamaño automatico
+    cover: ancho disponible, completa, SUGERIDA
+    contain: contiene la imagen dentro del height: 300px;
+    */
+}
+
+.color{
+    /* border: 5px black double; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    rodge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    border-width: 2rem;
+}
+
+#titulo{
+    color: aquamarine;
+}
+
+.especial{
+    font-size: xx-small;
+}
+
+p.parrafo{
+    color: blue;
+}
+
+div p {
+    color: brown;
+}
+
+div h2, div h3{
+    color: coral;
+}
